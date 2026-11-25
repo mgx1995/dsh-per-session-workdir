@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Per-session working directory",
+    "description": "Give every conversation its own creation-time-named folder (e.g. 2026-11-25_18-50-21) under the workspace and switch into it on open, keeping each session's files isolated.",
+    "detail": "docs/DETAIL.md"
+  }
+}

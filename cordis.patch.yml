@@ -1,0 +1,3 @@
+- insert:
+    - id: per-session-workdir
+      name: dsh-per-session-workdir

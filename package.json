@@ -1,0 +1,42 @@
+{
+  "name": "dsh-per-session-workdir",
+  "version": "1.0.0",
+  "description": "Give every DeepSeek Harness conversation its own creation-time-named working folder, keeping each session's files isolated.",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "icon": "icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgx1995/dsh-per-session-workdir.git"
+  },
+  "homepage": "https://github.com/mgx1995/dsh-per-session-workdir",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "session",
+    "working-directory",
+    "workspace"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
